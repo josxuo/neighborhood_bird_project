@@ -1,4 +1,4 @@
-#### POINT COUNT ANALYSIS ####
+#### OCCUPANCY ANALYSIS ####
 
 # Libraries
 library(tidyverse)
@@ -7,9 +7,9 @@ library(unmarked)
 # Load data
 dat <- read_csv("Data/NBP_2023-10-02.csv")
 
-# Process data for occupancy analysis. Will subset count circles to just those
-# that don't overlap with each other, and will restrict analysis to year 2021, 
-# to correspond with year of most recent site-level covariate.
+# Process data for occupancy analysis. Later need to subset count circles to just those
+# that don't overlap with each other. Currently restrict analysis to year 2021, 
+# to correspond with year of most recent site-level canopy cover covariate.
 
 df <- dat %>%  # filter undesired years, remove observations not ID'ed to species level, remove hybirds, create unique ID for individual surveys
   select(-notes) %>%
