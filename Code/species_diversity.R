@@ -106,7 +106,7 @@ ggplot(S1, aes(x = Year, y = S, colour = Park)) +
 
 ## Other species richness visualizations 
 
-# Plot species richness for individual count circles over time
+# Plot species richness for individual count circles over time at each park
 
 parks <- sort(unique(S2$Park))
 nparks <- length(parks)
@@ -121,7 +121,7 @@ for(i in 1:nparks){
   abline(m, col = "red")
 }
 
-# Plot richness for parks over time
+# Aggregate count circles and plot richness for parks over time
 par(mfrow = c(3, 4))
 
 for(i in 1:nparks){
