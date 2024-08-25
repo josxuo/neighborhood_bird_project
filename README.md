@@ -6,7 +6,7 @@ The Neighborhood Bird Project was launched in 1994 to monitor avian species rich
 ## Source Data
 Neighborhood Bird Project  
 City of Seattle 2021 Tree Canopy Cover  
-City of Seattle 2016 Tree Canopy Cover
+City of Seattle 2016 Tree Canopy Cover  
 Green Seattle Partnership Reference Map. Item created: Apr 7, 2014 Item updated: Apr 8, 2024. Downloaded Aug 25, 2024 from: (https://www.arcgis.com/apps/mapviewer/index.html?webmap=9be9415001144aa383e5b86e481d2c45)
 
 ###### Credits: [Birds Connect Seattle](https://birdsconnectsea.org/)
